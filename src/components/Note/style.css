@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+
+    min-height: 100vh;
+    background: linear-gradient(to top, #ff00cc 0%, #e258f1 100%);
+    overflow-x: hidden;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.first-header {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.first-header p {
+    margin: 20px;
+    padding: 100px;
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    color: aliceblue;
+    border: 1px solid wheat;
+    transition: 1s ease-in-out;
+
+}
+
+.first-header:hover {
+    filter: blur(1px);
+}
+
+
+.wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    /* height: 250px; */
+
+}
+
+.wrapper .colors {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    cursor: pointer;
+
+
+}
+
+.wrapper input {
+    padding: 30px;
+    width: 50%;
+    border-radius: 10px;
+    caret-color: #0800ff;
+    outline: none;
+
+
+}
+
+input::placeholder {
+    color: #000000;
+    font-weight: bolder;
+}
+
+input::selection {
+    color: #fff;
+    background: #a99afe;
+    background: #13007e;
+    background: #4ce5f6;
+    background: #09a1a3;
+    background: #3af502;
+    background: #3e800e;
+    background: #f7f779;
+    background: #989a0b;
+    background: #ff7b1d;
+    background: #ea6328;
+    background: #be00f3;
+    background: #581369;
+    background: #992675;
+    background: #ff03dd;
+    background: #ec0955;
+    background: #13007e;
+
+}
+
+.wrapper .colors span {
+    width: 20px;
+    height: 20px;
+    /* background-color: antiquewhite; */
+    border-radius: 50%;
+    text-align: center;
+
+}
+
+i {
+    padding: 10px;
+    margin: 1px;
+    border: 2px solid #8077f3;
+    color: white;
+    border-radius: 50%;
+    text-align: center;
+}
+
+i:hover {
+    border: 2px solid #1100ff;
+}
+
+.tasks {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    margin: 10px;
+
+}
+
+.tasks-main .tasks {
+    width: 40%;
+    border: 1px solid #efef;
+    text-align: center;
+    padding: 10px;
+
+}
